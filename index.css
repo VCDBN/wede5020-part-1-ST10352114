@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: aqua;
+    float: right;
+    padding: 10px;
+}
+
+
+.topnav{
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+
+
+.topnav{
+    float: left;
+    display: block;
+    color: #0fd2d2;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: double;
+}
+
+.topnav a:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+.colum.middle{
+    padding: 11px;
+    height: 80vh;
+    width: 80vw;
+}
+
+.footer{
+    background-color: cornflowerblue;
+    padding: 12px;
+    text-align: center;
+}

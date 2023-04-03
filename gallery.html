@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Well-Known Boreholes- Gallery</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #5177d7;
+		}
+		header {
+			background-color: #0d1fab;
+			color: white;
+			padding: 10px;
+		}
+		h1 {
+			margin: 0;
+		}
+		nav {
+			background-color: #1f86db;
+			color: white;
+			padding: 10px;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		nav li {
+			float: left;
+		}
+		nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		nav li a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+		.gallery {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			margin: 20px;
+		}
+		.gallery img {
+			max-width: 100%;
+			height: auto;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			transition: transform .2s;
+			cursor: pointer;
+		}
+		.gallery img:hover {
+			transform: scale(1.1);
+		}
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Well-Known Boreholes</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="ourwork.html">Our Work</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div class="gallery">
+		<img src="unnamed.jpeg" alt="Image 1">
+		<img src="D485-0619-252_526528.jpeg" alt="Image 2">
+		<img src="Borehole Set Up.jpeg" alt="Image 3">
+		<img src="Arid Area.jpeg" alt="Image 4">
+		<img src="NGO WORK IMAGE 1.webp" alt="Image 5">
+		<img src="A-drill-rig-drills-a-bore-hole-70m-deep-providing-water-which-wells-up-from-the-aquafer-below-the-Bryaston-Country-Club-The-Johannesburg-Water-Borehole-campaign-aims-to-provide-a-further-source-of-water-from-the-ground-water-below-our-feet.jpeg" alt="Image 6">
+	</div>
+	<footer>
+		<p>&copy; 2023 Well-Known Boreholes. All rights reserved.</p>
+	</footer>
+</body>
+</html>
